@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8ede8"/><stop offset=".5" stop-color="#dfb9bd"/><stop offset="1" stop-color="#714553"/></linearGradient>
+ <radialGradient id="pearl" cx=".32" cy=".22"><stop stop-color="#fffaf1"/><stop offset=".42" stop-color="#efd4cf"/><stop offset=".75" stop-color="#b97883"/><stop offset="1" stop-color="#69414e"/></radialGradient>
+ <linearGradient id="rose" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6d8d4"/><stop offset=".35" stop-color="#cc8994"/><stop offset=".72" stop-color="#995b70"/><stop offset="1" stop-color="#4f2d42"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#fff9f0" stop-opacity=".86"/><stop offset=".35" stop-color="#e8c3ce" stop-opacity=".52"/><stop offset=".75" stop-color="#a66b86" stop-opacity=".62"/><stop offset="1" stop-color="#4e2b45" stop-opacity=".9"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0c9"/><stop offset=".35" stop-color="#c69a62"/><stop offset=".64" stop-color="#f3d7a7"/><stop offset="1" stop-color="#79513e"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#fff2d9" stop-opacity=".8"/><stop offset=".5" stop-color="#e9bfc8" stop-opacity=".2"/><stop offset="1" stop-color="#e9bfc8" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="26"/><feOffset dy="24"/><feColorMatrix values="0 0 0 0 0.16 0 0 0 0 0.06 0 0 0 0 0.12 0 0 0 .32 0"/><feBlend in="SourceGraphic"/></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="9"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="grain"><feTurbulence baseFrequency=".55" numOctaves="3" seed="7" type="fractalNoise" result="n"/><feColorMatrix in="n" values="0 0 0 0 .3 0 0 0 0 .15 0 0 0 0 .2 0 0 0 .055 0"/><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="url(#bg)"/>
+<ellipse cx="1070" cy="430" rx="590" ry="490" fill="url(#halo)"/>
+<circle cx="1270" cy="160" r="220" fill="#f9e6dc" opacity=".16"/>
+
+<g filter="url(#shadow)"><path d="M-100 710C193 508 461 719 725 545s529-281 937-177v777H-100Z" fill="url(#rose)" opacity=".55"/>
+<path d="M-100 594C216 380 468 588 766 405s546-218 914-81v656H-100Z" fill="url(#glass)" opacity=".8"/>
+<path d="M-100 470C245 288 500 472 794 290s525-169 862-31v639H-100Z" fill="url(#pearl)" opacity=".74"/>
+<g fill="none" stroke="#ffede5" stroke-width="6" opacity=".5"><path d="M-20 591C263 392 512 582 793 414s520-190 797-78"/><path d="M-20 463C276 288 520 466 810 300s522-156 780-29"/></g></g>
+<g fill="url(#pearl)" filter="url(#shadow)"><circle cx="364" cy="298" r="52"/><circle cx="1090" cy="644" r="66"/><circle cx="1320" cy="383" r="34"/></g>
+<g fill="#fff7ef" opacity=".42"><circle cx="348" cy="283" r="12"/><circle cx="1077" cy="626" r="18"/></g><rect width="1536" height="1024" fill="transparent" filter="url(#grain)"/>
+</svg>

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024"
+ viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+<title id="title">Botox — perfil elegante com regiões de expressão destacadas</title><desc id="desc">Perfil feminino abstrato com faixas luminosas na testa, glabela e laterais dos olhos, sem injeções ou dosagens.</desc>
+
+<defs>
+  <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#f8f3ee"/><stop offset=".52" stop-color="#efe5df"/>
+    <stop offset="1" stop-color="#dfb9bd"/>
+  </linearGradient>
+  <radialGradient id="halo"><stop stop-color="#fff9ed" stop-opacity=".96"/>
+    <stop offset=".54" stop-color="#ecd8b3" stop-opacity=".28"/>
+    <stop offset="1" stop-color="#ecd8b3" stop-opacity="0"/></radialGradient>
+  <linearGradient id="night" x1="0" y1="0" x2=".9" y2="1">
+    <stop stop-color="#5c3546"/><stop offset=".54" stop-color="#2d1722"/>
+    <stop offset="1" stop-color="#1d1118"/></linearGradient>
+  <linearGradient id="skin" x1=".12" y1=".02" x2=".92" y2=".98">
+    <stop stop-color="#fff4e9"/><stop offset=".28" stop-color="#f1d1c9"/>
+    <stop offset=".62" stop-color="#d59a9e"/><stop offset=".86" stop-color="#b87582"/>
+    <stop offset="1" stop-color="#875363"/></linearGradient>
+  <radialGradient id="skinGlow" cx=".34" cy=".24" r=".84">
+    <stop stop-color="#fff9ef"/><stop offset=".35" stop-color="#f4dcd2"/>
+    <stop offset=".73" stop-color="#dca5aa"/><stop offset="1" stop-color="#a56878"/></radialGradient>
+  <linearGradient id="skinShade" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#f7e6dc"/><stop offset=".43" stop-color="#dfa9aa"/>
+    <stop offset="1" stop-color="#9e6173"/></linearGradient>
+  <linearGradient id="pearl" x1=".05" y1=".06" x2=".95" y2=".9">
+    <stop stop-color="#fffdf6"/><stop offset=".22" stop-color="#f7e8dd"/>
+    <stop offset=".5" stop-color="#e6c6cf"/><stop offset=".74" stop-color="#b88ca7"/>
+    <stop offset="1" stop-color="#765064"/></linearGradient>
+  <linearGradient id="satin" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff4df"/><stop offset=".24" stop-color="#ecd8b3"/>
+    <stop offset=".5" stop-color="#b88b62"/><stop offset=".68" stop-color="#ecd5ad"/>
+    <stop offset="1" stop-color="#815a3d"/></linearGradient>
+  <linearGradient id="lilacGlass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fffaf3" stop-opacity=".94"/><stop offset=".38"
+    stop-color="#e8ddf0" stop-opacity=".78"/><stop offset=".72"
+    stop-color="#c6b1d2" stop-opacity=".62"/><stop offset="1"
+    stop-color="#805c82" stop-opacity=".82"/></linearGradient>
+  <linearGradient id="roseGlass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff5ed" stop-opacity=".9"/><stop offset=".45"
+    stop-color="#e8bdc3" stop-opacity=".68"/><stop offset="1"
+    stop-color="#a45f65" stop-opacity=".84"/></linearGradient>
+  <linearGradient id="lip" x1=".2" y1="0" x2=".78" y2="1">
+    <stop stop-color="#f4c8c2"/><stop offset=".3" stop-color="#d98994"/>
+    <stop offset=".66" stop-color="#b45e72"/><stop offset="1" stop-color="#773b54"/></linearGradient>
+  <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#6e4852"/><stop offset=".38" stop-color="#3c2531"/>
+    <stop offset=".7" stop-color="#241821"/><stop offset="1" stop-color="#5a3845"/></linearGradient>
+  <radialGradient id="drop" cx=".35" cy=".22" r=".85">
+    <stop stop-color="#fffdf5"/><stop offset=".3" stop-color="#eadff0"/>
+    <stop offset=".62" stop-color="#c5b5d5"/><stop offset=".84" stop-color="#9f7cae"/>
+    <stop offset="1" stop-color="#684b78"/></radialGradient>
+  <pattern id="pores" width="34" height="34" patternUnits="userSpaceOnUse">
+    <circle cx="7" cy="9" r="1.5" fill="#8b5868" opacity=".14"/>
+    <circle cx="25" cy="23" r="1.1" fill="#8b5868" opacity=".12"/>
+    <circle cx="18" cy="4" r=".8" fill="#fff7ef" opacity=".65"/>
+  </pattern>
+  <pattern id="microGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#ecd8b3" stroke-width=".6" opacity=".12"/>
+  </pattern>
+  <filter id="shadow" x="-35%" y="-35%" width="170%" height="180%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="23"/>
+    <feOffset dy="24"/><feColorMatrix values="0 0 0 0 .17 0 0 0 0 .07 0 0 0 0 .12 0 0 0 .28 0"/>
+    <feBlend in="SourceGraphic"/></filter>
+  <filter id="smallShadow" x="-40%" y="-40%" width="180%" height="190%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="10"/><feOffset dy="12"/>
+    <feColorMatrix values="0 0 0 0 .17 0 0 0 0 .07 0 0 0 0 .12 0 0 0 .25 0"/>
+    <feBlend in="SourceGraphic"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="10" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".72"
+    numOctaves="3" seed="19" result="noise"/><feColorMatrix in="noise"
+    values="0 0 0 0 .25 0 0 0 0 .14 0 0 0 0 .18 0 0 0 .038 0"/>
+    <feBlend in="SourceGraphic" mode="soft-light"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="url(#canvas)"/><ellipse cx="1160" cy="390" rx="650" ry="560" fill="url(#halo)"/><path d="M-80 884C280 770 570 844 835 760S1290 683 1610 760V1040H-80Z" fill="#d8cbe1" opacity=".16"/><g ><text x="76" y="80" fill="#815a3d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="start" letter-spacing="3.2" opacity="1">03  /  SUAVIDADE</text><path d="M76 99H188" stroke="#815a3d" stroke-width="2" opacity=".7"/><text x="76" y="129" fill="#8b6770" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" text-anchor="start" letter-spacing="2.2" opacity="1">ILUSTRAÇÃO CONCEITUAL</text></g><g ><ellipse cx="780" cy="905" rx="385" ry="55" fill="#70404e" opacity=".14" filter="url(#soft)"/></g><g filter="url(#shadow)">
+<path d="M789 136c-157 42-243 167-232 312 8 110 64 199 157 258 37 24 55 48 51 71-4 24-34 41-67 47l-10 110 145 72 273-102-90-139c80-62 118-146 111-239-10-133-128-302-338-290Z" fill="url(#skinGlow)"/>
+<path d="M803 165c-133 56-187 172-177 289 7 88 44 165 108 215-63-12-91-38-91-76 0-28 19-53 56-80-82-80-122-190-110-302 13-118 96-221 214-246Z" fill="#7d4c5d" opacity=".15"/>
+<path d="M930 345c43-35 101-30 137 7-45 10-85 31-119 63" fill="#f8e6dc" opacity=".65"/>
+<path d="M939 379c47-23 91-16 123 8" fill="none" stroke="#744451" stroke-width="9" stroke-linecap="round"/>
+<path d="M979 392c23 5 43 4 62-3" fill="none" stroke="#402635" stroke-width="7" stroke-linecap="round"/>
+<path d="M1104 384c-20 59-48 106-80 132 22 15 56 16 83 4" fill="none" stroke="#a86575" stroke-width="6" stroke-linecap="round"/>
+<path d="M1069 568c-28 26-32 54-8 64 21 9 56-2 78-21" fill="none" stroke="#a45f65" stroke-width="8" stroke-linecap="round"/>
+<path d="M1054 637c-19 21-15 41 11 48 31 8 65-9 88-31" fill="none" stroke="#f5d8d0" stroke-width="7" stroke-linecap="round"/>
+<path d="M819 206c103-71 231-55 309 18" fill="none" stroke="#fff3e7" stroke-width="26" opacity=".34" stroke-linecap="round"/>
+<path d="M575 373c-23 65-25 130-5 189M603 401c-14 55-13 105 1 146" fill="none" stroke="#875363" stroke-width="6" opacity=".25"/>
+</g><g >
+<path d="M786 315c78-54 170-60 244-24" fill="none" stroke="#ecd8b3" stroke-width="25" opacity=".22" stroke-linecap="round"/>
+<path d="M786 315c78-54 170-60 244-24" fill="none" stroke="#f5dfb7" stroke-width="5" opacity=".95" stroke-linecap="round" filter="url(#glow)"/>
+<path d="M927 430c29-16 59-14 84 5" fill="none" stroke="#ecd8b3" stroke-width="24" opacity=".24" stroke-linecap="round"/>
+<path d="M927 430c29-16 59-14 84 5" fill="none" stroke="#f5dfb7" stroke-width="5" opacity=".95" stroke-linecap="round" filter="url(#glow)"/>
+<path d="M940 357c13-8 26-9 39-2M1037 355c14-8 28-7 42 2" fill="none" stroke="#d8cbe1" stroke-width="18" opacity=".55" stroke-linecap="round"/>
+<path d="M940 357c13-8 26-9 39-2M1037 355c14-8 28-7 42 2" fill="none" stroke="#eee5f4" stroke-width="4" stroke-linecap="round"/>
+<path d="M818 318c79-59 174-65 250-24" fill="none" stroke="#f5dfb7" stroke-width="1.5" stroke-dasharray="3 11" opacity=".7"/>
+</g><g ><path d="M790 315H225V243" fill="none" stroke="#75515a" stroke-width="1.5" opacity=".66"/><text x="243" y="251" fill="#75515a" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" text-anchor="start" letter-spacing="1.5" opacity="1">TESTA</text></g><g ><path d="M969 433H1153V457" fill="none" stroke="#75515a" stroke-width="1.5" opacity=".66"/><text x="1135" y="465" fill="#75515a" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" text-anchor="end" letter-spacing="1.5" opacity="1">GLABELA</text></g><g ><path d="M1060 356H1258V331" fill="none" stroke="#75515a" stroke-width="1.5" opacity=".66"/><text x="1240" y="339" fill="#75515a" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="500" text-anchor="end" letter-spacing="1.5" opacity="1">LATERAL DOS OLHOS</text></g>
+<g opacity="0.9"><path d="M1212 932H1460" stroke="#815a3d" stroke-width="1" opacity=".5"/><text x="1460" y="916" fill="#815a3d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" text-anchor="end" letter-spacing="2.8" opacity="1">TESTA · GLABELA · REGIÃO OCULAR</text></g>
+<rect width="1536" height="1024" fill="transparent" filter="url(#grain)"/>
+</svg>

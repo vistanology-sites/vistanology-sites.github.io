@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024"
+ viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+<title id="title">Fios PDO — diagrama de face e fios lisos alinhados</title><desc id="desc">Face estilizada e seis fios lisos paralelos, organizados como diagrama visual, sem demonstração de aplicação.</desc>
+
+<defs>
+  <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#f8f3ee"/><stop offset=".52" stop-color="#efe5df"/>
+    <stop offset="1" stop-color="#dfb9bd"/>
+  </linearGradient>
+  <radialGradient id="halo"><stop stop-color="#fff9ed" stop-opacity=".96"/>
+    <stop offset=".54" stop-color="#ecd8b3" stop-opacity=".28"/>
+    <stop offset="1" stop-color="#ecd8b3" stop-opacity="0"/></radialGradient>
+  <linearGradient id="night" x1="0" y1="0" x2=".9" y2="1">
+    <stop stop-color="#5c3546"/><stop offset=".54" stop-color="#2d1722"/>
+    <stop offset="1" stop-color="#1d1118"/></linearGradient>
+  <linearGradient id="skin" x1=".12" y1=".02" x2=".92" y2=".98">
+    <stop stop-color="#fff4e9"/><stop offset=".28" stop-color="#f1d1c9"/>
+    <stop offset=".62" stop-color="#d59a9e"/><stop offset=".86" stop-color="#b87582"/>
+    <stop offset="1" stop-color="#875363"/></linearGradient>
+  <radialGradient id="skinGlow" cx=".34" cy=".24" r=".84">
+    <stop stop-color="#fff9ef"/><stop offset=".35" stop-color="#f4dcd2"/>
+    <stop offset=".73" stop-color="#dca5aa"/><stop offset="1" stop-color="#a56878"/></radialGradient>
+  <linearGradient id="skinShade" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#f7e6dc"/><stop offset=".43" stop-color="#dfa9aa"/>
+    <stop offset="1" stop-color="#9e6173"/></linearGradient>
+  <linearGradient id="pearl" x1=".05" y1=".06" x2=".95" y2=".9">
+    <stop stop-color="#fffdf6"/><stop offset=".22" stop-color="#f7e8dd"/>
+    <stop offset=".5" stop-color="#e6c6cf"/><stop offset=".74" stop-color="#b88ca7"/>
+    <stop offset="1" stop-color="#765064"/></linearGradient>
+  <linearGradient id="satin" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff4df"/><stop offset=".24" stop-color="#ecd8b3"/>
+    <stop offset=".5" stop-color="#b88b62"/><stop offset=".68" stop-color="#ecd5ad"/>
+    <stop offset="1" stop-color="#815a3d"/></linearGradient>
+  <linearGradient id="lilacGlass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fffaf3" stop-opacity=".94"/><stop offset=".38"
+    stop-color="#e8ddf0" stop-opacity=".78"/><stop offset=".72"
+    stop-color="#c6b1d2" stop-opacity=".62"/><stop offset="1"
+    stop-color="#805c82" stop-opacity=".82"/></linearGradient>
+  <linearGradient id="roseGlass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff5ed" stop-opacity=".9"/><stop offset=".45"
+    stop-color="#e8bdc3" stop-opacity=".68"/><stop offset="1"
+    stop-color="#a45f65" stop-opacity=".84"/></linearGradient>
+  <linearGradient id="lip" x1=".2" y1="0" x2=".78" y2="1">
+    <stop stop-color="#f4c8c2"/><stop offset=".3" stop-color="#d98994"/>
+    <stop offset=".66" stop-color="#b45e72"/><stop offset="1" stop-color="#773b54"/></linearGradient>
+  <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#6e4852"/><stop offset=".38" stop-color="#3c2531"/>
+    <stop offset=".7" stop-color="#241821"/><stop offset="1" stop-color="#5a3845"/></linearGradient>
+  <radialGradient id="drop" cx=".35" cy=".22" r=".85">
+    <stop stop-color="#fffdf5"/><stop offset=".3" stop-color="#eadff0"/>
+    <stop offset=".62" stop-color="#c5b5d5"/><stop offset=".84" stop-color="#9f7cae"/>
+    <stop offset="1" stop-color="#684b78"/></radialGradient>
+  <pattern id="pores" width="34" height="34" patternUnits="userSpaceOnUse">
+    <circle cx="7" cy="9" r="1.5" fill="#8b5868" opacity=".14"/>
+    <circle cx="25" cy="23" r="1.1" fill="#8b5868" opacity=".12"/>
+    <circle cx="18" cy="4" r=".8" fill="#fff7ef" opacity=".65"/>
+  </pattern>
+  <pattern id="microGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#ecd8b3" stroke-width=".6" opacity=".12"/>
+  </pattern>
+  <filter id="shadow" x="-35%" y="-35%" width="170%" height="180%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="23"/>
+    <feOffset dy="24"/><feColorMatrix values="0 0 0 0 .17 0 0 0 0 .07 0 0 0 0 .12 0 0 0 .28 0"/>
+    <feBlend in="SourceGraphic"/></filter>
+  <filter id="smallShadow" x="-40%" y="-40%" width="180%" height="190%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="10"/><feOffset dy="12"/>
+    <feColorMatrix values="0 0 0 0 .17 0 0 0 0 .07 0 0 0 0 .12 0 0 0 .25 0"/>
+    <feBlend in="SourceGraphic"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="10" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".72"
+    numOctaves="3" seed="19" result="noise"/><feColorMatrix in="noise"
+    values="0 0 0 0 .25 0 0 0 0 .14 0 0 0 0 .18 0 0 0 .038 0"/>
+    <feBlend in="SourceGraphic" mode="soft-light"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="url(#night)"/><rect width="1536" height="1024" fill="url(#microGrid)"/><g ><text x="76" y="80" fill="#ecd8b3" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="start" letter-spacing="3.2" opacity="1">05  /  DIAGRAMA</text><path d="M76 99H188" stroke="#ecd8b3" stroke-width="2" opacity=".7"/><text x="76" y="129" fill="#e9cfd2" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" text-anchor="start" letter-spacing="2.2" opacity="1">ILUSTRAÇÃO CONCEITUAL</text></g><g ><path d="M568 251h663v463H568Z" fill="#f8f3ee" opacity=".28" stroke="#c5a26b" stroke-width="1"/></g><g filter="url(#shadow)">
+<path d="M883 152c-115 0-200 76-220 184-17 91 10 172 64 237l-31 109c-18 63 6 111 62 132 62 24 165 13 226-32l-45-103c45-50 71-116 70-185-1-132-38-255-126-342Z" fill="url(#skinGlow)" opacity=".92"/>
+<path d="M899 170c-101 19-165 96-177 194-9 74 9 140 49 195-45 30-67 78-58 127 6 34 22 60 47 77-20-45-18-88 6-123 23-34 54-70 59-119 7-68-7-128 13-179 19-49 39-115 61-172Z" fill="#815363" opacity=".14"/>
+<path d="M756 359c45-28 96-22 131 12M961 365c34-21 72-18 99 8" fill="none" stroke="#7f4a59" stroke-width="7" stroke-linecap="round" opacity=".65"/>
+<path d="M884 398c-3 65-26 108-9 126 14 15 47 13 64-2 15-13 17-29 7-41M854 578c62-26 128-18 177 13" fill="none" stroke="#a45f65" stroke-width="6" stroke-linecap="round" opacity=".58"/>
+<path d="M895 540c-5 17-14 28-26 32" fill="none" stroke="#b77886" stroke-width="4" opacity=".48"/>
+<path d="M699 321c-38 83-42 165-12 238M720 560c-23 75-10 130 34 164" fill="none" stroke="#f8e9df" stroke-width="14" opacity=".35" stroke-linecap="round"/>
+</g><g ><path d="M608 293C764 258 859 251 1105 290" fill="none" stroke="#734858" stroke-width="12" opacity=".13"/><path d="M608 293C764 258 859 251 1105 290" fill="none" stroke="url(#satin)" stroke-width="7"/><path d="M608 293C764 258 859 251 1105 290" fill="none" stroke="#fff4dd" stroke-width="1.6" opacity=".8"/><path d="M594 367C782 327 891 327 1127 367" fill="none" stroke="#734858" stroke-width="12" opacity=".13"/><path d="M594 367C782 327 891 327 1127 367" fill="none" stroke="url(#satin)" stroke-width="7"/><path d="M594 367C782 327 891 327 1127 367" fill="none" stroke="#fff4dd" stroke-width="1.6" opacity=".8"/><path d="M581 441C797 402 912 403 1148 441" fill="none" stroke="#734858" stroke-width="12" opacity=".13"/><path d="M581 441C797 402 912 403 1148 441" fill="none" stroke="url(#satin)" stroke-width="7"/><path d="M581 441C797 402 912 403 1148 441" fill="none" stroke="#fff4dd" stroke-width="1.6" opacity=".8"/><path d="M572 515C800 480 934 481 1168 515" fill="none" stroke="#734858" stroke-width="12" opacity=".13"/><path d="M572 515C800 480 934 481 1168 515" fill="none" stroke="url(#satin)" stroke-width="7"/><path d="M572 515C800 480 934 481 1168 515" fill="none" stroke="#fff4dd" stroke-width="1.6" opacity=".8"/><path d="M563 589C807 558 951 560 1187 589" fill="none" stroke="#734858" stroke-width="12" opacity=".13"/><path d="M563 589C807 558 951 560 1187 589" fill="none" stroke="url(#satin)" stroke-width="7"/><path d="M563 589C807 558 951 560 1187 589" fill="none" stroke="#fff4dd" stroke-width="1.6" opacity=".8"/><path d="M553 663C817 633 970 638 1207 663" fill="none" stroke="#734858" stroke-width="12" opacity=".13"/><path d="M553 663C817 633 970 638 1207 663" fill="none" stroke="url(#satin)" stroke-width="7"/><path d="M553 663C817 633 970 638 1207 663" fill="none" stroke="#fff4dd" stroke-width="1.6" opacity=".8"/></g><g ><path d="M1065 294H1156V230" fill="none" stroke="#f2dcc0" stroke-width="1.5" opacity=".66"/><text x="1138" y="238" fill="#f2dcc0" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" text-anchor="end" letter-spacing="1.5" opacity="1">FIOS LISOS</text></g><g ><path d="M1065 664H1158V749" fill="none" stroke="#f2dcc0" stroke-width="1.5" opacity=".66"/><text x="1140" y="757" fill="#f2dcc0" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" text-anchor="end" letter-spacing="1.5" opacity="1">ALINHAMENTO</text></g><g ><path d="M742 623H257V848" fill="none" stroke="#f2dcc0" stroke-width="1.5" opacity=".66"/><text x="275" y="856" fill="#f2dcc0" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" text-anchor="start" letter-spacing="1.5" opacity="1">CONTORNO FACIAL</text></g>
+<g opacity="0.9"><path d="M1212 932H1460" stroke="#ecd8b3" stroke-width="1" opacity=".5"/><text x="1460" y="916" fill="#ecd8b3" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" text-anchor="end" letter-spacing="2.8" opacity="1">FIOS LISOS · ALINHAMENTO · CONTORNO</text></g>
+<rect width="1536" height="1024" fill="transparent" filter="url(#grain)"/>
+</svg>

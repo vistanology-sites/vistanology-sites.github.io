@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024"
+ viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+<title id="title">Bioestética — camadas da pele, textura e cuidado</title><desc id="desc">Corte conceitual de camadas da pele com células, gota de hidratação e símbolo de cuidado, sem tecnologia inventada.</desc>
+
+<defs>
+  <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#f8f3ee"/><stop offset=".52" stop-color="#efe5df"/>
+    <stop offset="1" stop-color="#dfb9bd"/>
+  </linearGradient>
+  <radialGradient id="halo"><stop stop-color="#fff9ed" stop-opacity=".96"/>
+    <stop offset=".54" stop-color="#ecd8b3" stop-opacity=".28"/>
+    <stop offset="1" stop-color="#ecd8b3" stop-opacity="0"/></radialGradient>
+  <linearGradient id="night" x1="0" y1="0" x2=".9" y2="1">
+    <stop stop-color="#5c3546"/><stop offset=".54" stop-color="#2d1722"/>
+    <stop offset="1" stop-color="#1d1118"/></linearGradient>
+  <linearGradient id="skin" x1=".12" y1=".02" x2=".92" y2=".98">
+    <stop stop-color="#fff4e9"/><stop offset=".28" stop-color="#f1d1c9"/>
+    <stop offset=".62" stop-color="#d59a9e"/><stop offset=".86" stop-color="#b87582"/>
+    <stop offset="1" stop-color="#875363"/></linearGradient>
+  <radialGradient id="skinGlow" cx=".34" cy=".24" r=".84">
+    <stop stop-color="#fff9ef"/><stop offset=".35" stop-color="#f4dcd2"/>
+    <stop offset=".73" stop-color="#dca5aa"/><stop offset="1" stop-color="#a56878"/></radialGradient>
+  <linearGradient id="skinShade" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#f7e6dc"/><stop offset=".43" stop-color="#dfa9aa"/>
+    <stop offset="1" stop-color="#9e6173"/></linearGradient>
+  <linearGradient id="pearl" x1=".05" y1=".06" x2=".95" y2=".9">
+    <stop stop-color="#fffdf6"/><stop offset=".22" stop-color="#f7e8dd"/>
+    <stop offset=".5" stop-color="#e6c6cf"/><stop offset=".74" stop-color="#b88ca7"/>
+    <stop offset="1" stop-color="#765064"/></linearGradient>
+  <linearGradient id="satin" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff4df"/><stop offset=".24" stop-color="#ecd8b3"/>
+    <stop offset=".5" stop-color="#b88b62"/><stop offset=".68" stop-color="#ecd5ad"/>
+    <stop offset="1" stop-color="#815a3d"/></linearGradient>
+  <linearGradient id="lilacGlass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fffaf3" stop-opacity=".94"/><stop offset=".38"
+    stop-color="#e8ddf0" stop-opacity=".78"/><stop offset=".72"
+    stop-color="#c6b1d2" stop-opacity=".62"/><stop offset="1"
+    stop-color="#805c82" stop-opacity=".82"/></linearGradient>
+  <linearGradient id="roseGlass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff5ed" stop-opacity=".9"/><stop offset=".45"
+    stop-color="#e8bdc3" stop-opacity=".68"/><stop offset="1"
+    stop-color="#a45f65" stop-opacity=".84"/></linearGradient>
+  <linearGradient id="lip" x1=".2" y1="0" x2=".78" y2="1">
+    <stop stop-color="#f4c8c2"/><stop offset=".3" stop-color="#d98994"/>
+    <stop offset=".66" stop-color="#b45e72"/><stop offset="1" stop-color="#773b54"/></linearGradient>
+  <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#6e4852"/><stop offset=".38" stop-color="#3c2531"/>
+    <stop offset=".7" stop-color="#241821"/><stop offset="1" stop-color="#5a3845"/></linearGradient>
+  <radialGradient id="drop" cx=".35" cy=".22" r=".85">
+    <stop stop-color="#fffdf5"/><stop offset=".3" stop-color="#eadff0"/>
+    <stop offset=".62" stop-color="#c5b5d5"/><stop offset=".84" stop-color="#9f7cae"/>
+    <stop offset="1" stop-color="#684b78"/></radialGradient>
+  <pattern id="pores" width="34" height="34" patternUnits="userSpaceOnUse">
+    <circle cx="7" cy="9" r="1.5" fill="#8b5868" opacity=".14"/>
+    <circle cx="25" cy="23" r="1.1" fill="#8b5868" opacity=".12"/>
+    <circle cx="18" cy="4" r=".8" fill="#fff7ef" opacity=".65"/>
+  </pattern>
+  <pattern id="microGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#ecd8b3" stroke-width=".6" opacity=".12"/>
+  </pattern>
+  <filter id="shadow" x="-35%" y="-35%" width="170%" height="180%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="23"/>
+    <feOffset dy="24"/><feColorMatrix values="0 0 0 0 .17 0 0 0 0 .07 0 0 0 0 .12 0 0 0 .28 0"/>
+    <feBlend in="SourceGraphic"/></filter>
+  <filter id="smallShadow" x="-40%" y="-40%" width="180%" height="190%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="10"/><feOffset dy="12"/>
+    <feColorMatrix values="0 0 0 0 .17 0 0 0 0 .07 0 0 0 0 .12 0 0 0 .25 0"/>
+    <feBlend in="SourceGraphic"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="10" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".72"
+    numOctaves="3" seed="19" result="noise"/><feColorMatrix in="noise"
+    values="0 0 0 0 .25 0 0 0 0 .14 0 0 0 0 .18 0 0 0 .038 0"/>
+    <feBlend in="SourceGraphic" mode="soft-light"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="url(#canvas)"/><ellipse cx="1160" cy="390" rx="650" ry="560" fill="url(#halo)"/><path d="M-80 884C280 770 570 844 835 760S1290 683 1610 760V1040H-80Z" fill="#d8cbe1" opacity=".16"/><g ><text x="76" y="80" fill="#815a3d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="start" letter-spacing="3.2" opacity="1">07  /  CUIDADO</text><path d="M76 99H188" stroke="#815a3d" stroke-width="2" opacity=".7"/><text x="76" y="129" fill="#8b6770" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" text-anchor="start" letter-spacing="2.2" opacity="1">ILUSTRAÇÃO CONCEITUAL</text></g><g filter="url(#shadow)">
+<path d="M571 137C842 97 1170 111 1536 176V935H571Z" fill="url(#skinShade)"/>
+<path d="M571 137C842 97 1170 111 1536 176V247C1211 190 879 173 571 226Z" fill="#f8e9de" opacity=".9"/>
+<path d="M571 326C869 270 1195 290 1536 342V451C1231 400 877 392 571 438Z" fill="#c28c9d" opacity=".5"/>
+<path d="M571 540C887 474 1200 501 1536 550V660C1211 607 899 601 571 648Z" fill="#a46e86" opacity=".43"/>
+<path d="M571 747C886 688 1209 713 1536 761V871C1213 815 904 810 571 856Z" fill="#805b78" opacity=".35"/>
+<path d="M571 137C842 97 1170 111 1536 176M571 326C869 270 1195 290 1536 342M571 540C887 474 1200 501 1536 550M571 747C886 688 1209 713 1536 761" fill="none" stroke="#fff1e6" stroke-width="4" opacity=".52"/>
+</g><g opacity="0.7"><path d="M649 225q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="682" cy="221" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M753 225q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="786" cy="221" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M857 225q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="890" cy="221" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M961 225q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="994" cy="221" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M1065 225q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1098" cy="221" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M1169 225q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1202" cy="221" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M1273 225q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1306" cy="221" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M1377 225q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1410" cy="221" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M667 340q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="700" cy="336" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M771 340q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="804" cy="336" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M875 340q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="908" cy="336" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M979 340q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1012" cy="336" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M1083 340q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1116" cy="336" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M1187 340q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1220" cy="336" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M1291 340q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1324" cy="336" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M1395 340q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1428" cy="336" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M649 455q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="682" cy="451" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M753 455q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="786" cy="451" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M857 455q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="890" cy="451" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M961 455q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="994" cy="451" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M1065 455q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1098" cy="451" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M1169 455q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1202" cy="451" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M1273 455q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1306" cy="451" rx="12" ry="15" fill="#b98da9" opacity=".36"/><path d="M1377 455q0-38 39-38t39 38q0 39-39 39t-39-39Z" fill="url(#pearl)" stroke="#f9eee4" stroke-width="2" opacity=".72"/><ellipse cx="1410" cy="451" rx="12" ry="15" fill="#b98da9" opacity=".36"/></g><g filter="url(#shadow)">
+<path d="M1137 174c-51 78-94 127-94 191a94 94 0 0 0 188 0c0-64-43-113-94-191Z" fill="url(#drop)" opacity=".88"/>
+<path d="M1090 395c-14 39 5 71 34 82" fill="none" stroke="#fffdf6" stroke-width="12" stroke-linecap="round" opacity=".63"/>
+<circle cx="1305" cy="472" r="35" fill="url(#pearl)"/>
+</g><g filter="url(#shadow)">
+<circle cx="304" cy="422" r="148" fill="url(#lilacGlass)" opacity=".72"/>
+<circle cx="304" cy="422" r="108" fill="#f8f3ee" opacity=".6"/>
+<path d="M304 337v170M219 422h170" stroke="#a45f65" stroke-width="3" opacity=".25"/>
+<path d="M304 368c-17 25-29 41-29 61a29 29 0 0 0 58 0c0-20-12-36-29-61Z" fill="url(#drop)"/>
+<path d="M185 647c55-45 125-50 190-20M202 686c49-31 104-35 155-15" fill="none" stroke="#c5a26b" stroke-width="3" opacity=".45"/>
+</g><g ><path d="M1260 215H1258V170" fill="none" stroke="#75515a" stroke-width="1.5" opacity=".66"/><text x="1240" y="178" fill="#75515a" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" text-anchor="end" letter-spacing="1.5" opacity="1">CAMADAS DA PELE</text></g><g ><path d="M305 349H246V210" fill="none" stroke="#75515a" stroke-width="1.5" opacity=".66"/><text x="264" y="218" fill="#75515a" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" text-anchor="start" letter-spacing="1.5" opacity="1">HIDRATAÇÃO</text></g><g ><path d="M1238 843H1218V937" fill="none" stroke="#75515a" stroke-width="1.5" opacity=".66"/><text x="1200" y="945" fill="#75515a" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" text-anchor="end" letter-spacing="1.5" opacity="1">BARREIRA CUTÂNEA</text></g>
+<g opacity="0.9"><path d="M1212 932H1460" stroke="#815a3d" stroke-width="1" opacity=".5"/><text x="1460" y="916" fill="#815a3d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" text-anchor="end" letter-spacing="2.8" opacity="1">PELE · CAMADAS · BARREIRA</text></g>
+<rect width="1536" height="1024" fill="transparent" filter="url(#grain)"/>
+</svg>

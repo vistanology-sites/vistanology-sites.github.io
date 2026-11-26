@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024"
+ viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+<title id="title">Tapping terapêutico — gesto de toque em composição corporal elegante</title><desc id="desc">Antebraço e mão em composição elegante, com dedos profissionais e marcas abstratas do gesto de tapping, sem fitas ou materiais.</desc>
+
+<defs>
+  <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#f8f3ee"/><stop offset=".52" stop-color="#efe5df"/>
+    <stop offset="1" stop-color="#dfb9bd"/>
+  </linearGradient>
+  <radialGradient id="halo"><stop stop-color="#fff9ed" stop-opacity=".96"/>
+    <stop offset=".54" stop-color="#ecd8b3" stop-opacity=".28"/>
+    <stop offset="1" stop-color="#ecd8b3" stop-opacity="0"/></radialGradient>
+  <linearGradient id="night" x1="0" y1="0" x2=".9" y2="1">
+    <stop stop-color="#5c3546"/><stop offset=".54" stop-color="#2d1722"/>
+    <stop offset="1" stop-color="#1d1118"/></linearGradient>
+  <linearGradient id="skin" x1=".12" y1=".02" x2=".92" y2=".98">
+    <stop stop-color="#fff4e9"/><stop offset=".28" stop-color="#f1d1c9"/>
+    <stop offset=".62" stop-color="#d59a9e"/><stop offset=".86" stop-color="#b87582"/>
+    <stop offset="1" stop-color="#875363"/></linearGradient>
+  <radialGradient id="skinGlow" cx=".34" cy=".24" r=".84">
+    <stop stop-color="#fff9ef"/><stop offset=".35" stop-color="#f4dcd2"/>
+    <stop offset=".73" stop-color="#dca5aa"/><stop offset="1" stop-color="#a56878"/></radialGradient>
+  <linearGradient id="skinShade" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#f7e6dc"/><stop offset=".43" stop-color="#dfa9aa"/>
+    <stop offset="1" stop-color="#9e6173"/></linearGradient>
+  <linearGradient id="pearl" x1=".05" y1=".06" x2=".95" y2=".9">
+    <stop stop-color="#fffdf6"/><stop offset=".22" stop-color="#f7e8dd"/>
+    <stop offset=".5" stop-color="#e6c6cf"/><stop offset=".74" stop-color="#b88ca7"/>
+    <stop offset="1" stop-color="#765064"/></linearGradient>
+  <linearGradient id="satin" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff4df"/><stop offset=".24" stop-color="#ecd8b3"/>
+    <stop offset=".5" stop-color="#b88b62"/><stop offset=".68" stop-color="#ecd5ad"/>
+    <stop offset="1" stop-color="#815a3d"/></linearGradient>
+  <linearGradient id="lilacGlass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fffaf3" stop-opacity=".94"/><stop offset=".38"
+    stop-color="#e8ddf0" stop-opacity=".78"/><stop offset=".72"
+    stop-color="#c6b1d2" stop-opacity=".62"/><stop offset="1"
+    stop-color="#805c82" stop-opacity=".82"/></linearGradient>
+  <linearGradient id="roseGlass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff5ed" stop-opacity=".9"/><stop offset=".45"
+    stop-color="#e8bdc3" stop-opacity=".68"/><stop offset="1"
+    stop-color="#a45f65" stop-opacity=".84"/></linearGradient>
+  <linearGradient id="lip" x1=".2" y1="0" x2=".78" y2="1">
+    <stop stop-color="#f4c8c2"/><stop offset=".3" stop-color="#d98994"/>
+    <stop offset=".66" stop-color="#b45e72"/><stop offset="1" stop-color="#773b54"/></linearGradient>
+  <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#6e4852"/><stop offset=".38" stop-color="#3c2531"/>
+    <stop offset=".7" stop-color="#241821"/><stop offset="1" stop-color="#5a3845"/></linearGradient>
+  <radialGradient id="drop" cx=".35" cy=".22" r=".85">
+    <stop stop-color="#fffdf5"/><stop offset=".3" stop-color="#eadff0"/>
+    <stop offset=".62" stop-color="#c5b5d5"/><stop offset=".84" stop-color="#9f7cae"/>
+    <stop offset="1" stop-color="#684b78"/></radialGradient>
+  <pattern id="pores" width="34" height="34" patternUnits="userSpaceOnUse">
+    <circle cx="7" cy="9" r="1.5" fill="#8b5868" opacity=".14"/>
+    <circle cx="25" cy="23" r="1.1" fill="#8b5868" opacity=".12"/>
+    <circle cx="18" cy="4" r=".8" fill="#fff7ef" opacity=".65"/>
+  </pattern>
+  <pattern id="microGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#ecd8b3" stroke-width=".6" opacity=".12"/>
+  </pattern>
+  <filter id="shadow" x="-35%" y="-35%" width="170%" height="180%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="23"/>
+    <feOffset dy="24"/><feColorMatrix values="0 0 0 0 .17 0 0 0 0 .07 0 0 0 0 .12 0 0 0 .28 0"/>
+    <feBlend in="SourceGraphic"/></filter>
+  <filter id="smallShadow" x="-40%" y="-40%" width="180%" height="190%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="10"/><feOffset dy="12"/>
+    <feColorMatrix values="0 0 0 0 .17 0 0 0 0 .07 0 0 0 0 .12 0 0 0 .25 0"/>
+    <feBlend in="SourceGraphic"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="10" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".72"
+    numOctaves="3" seed="19" result="noise"/><feColorMatrix in="noise"
+    values="0 0 0 0 .25 0 0 0 0 .14 0 0 0 0 .18 0 0 0 .038 0"/>
+    <feBlend in="SourceGraphic" mode="soft-light"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="url(#night)"/><rect width="1536" height="1024" fill="url(#microGrid)"/><g ><text x="76" y="80" fill="#ecd8b3" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="start" letter-spacing="3.2" opacity="1">10  /  PRESENÇA</text><path d="M76 99H188" stroke="#ecd8b3" stroke-width="2" opacity=".7"/><text x="76" y="129" fill="#e9cfd2" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" text-anchor="start" letter-spacing="2.2" opacity="1">ILUSTRAÇÃO CONCEITUAL</text></g><g filter="url(#shadow)">
+<path d="M-90 1018L390 790c55-18 104-45 132-83l56-60c26-26 54-46 85-54l221-57c30-7 44 5 37 23-5 14-21 18-40 22l-195 44 234-52c29-4 44 9 37 26-7 15-22 19-41 21l-220 48 196-38c29-3 44 10 38 27-7 14-22 18-41 20l-212 34 167-27c29-2 44 10 39 27-6 13-21 18-41 20l-207 21 133 6c26 1 38 15 31 32-7 15-23 20-44 18l-189-15 202 5c26 0 38 14 31 30-7 15-23 21-44 19l-168-12c-41 54-93 91-161 119L-90 1110Z" fill="url(#skinGlow)"/>
+<path d="M-50 1013l442-198c-15 56-55 108-117 143L-40 1075Z" fill="#9e6678" opacity=".13"/>
+<path d="M486 793c40-11 79-30 111-58M541 837c38-8 72-22 99-43" fill="none" stroke="#fff0e5" stroke-width="16" opacity=".27" stroke-linecap="round"/>
+<path d="M624 627c30-13 65-15 94-8M682 683c33-9 67-9 96-3M680 729c31-6 62-4 90 2" fill="none" stroke="#aa6d7d" stroke-width="4" opacity=".3" stroke-linecap="round"/>
+<ellipse cx="889" cy="579" rx="15" ry="9" transform="rotate(15 889 579)" fill="#f8e5dc" opacity=".6"/>
+<ellipse cx="923" cy="616" rx="15" ry="9" transform="rotate(13 923 616)" fill="#f8e5dc" opacity=".6"/>
+<ellipse cx="897" cy="674" rx="14" ry="8" transform="rotate(11 897 674)" fill="#f8e5dc" opacity=".6"/>
+<ellipse cx="850" cy="727" rx="12" ry="8" transform="rotate(8 850 727)" fill="#f8e5dc" opacity=".6"/>
+</g><g filter="url(#shadow)">
+<path d="M1180 365C1135 405 1075 457 1008 502c-27 18-24 43-2 54 20 10 43-2 65-20l146-112Z" fill="url(#skinGlow)"/>
+<path d="M1198 407C1146 453 1086 506 1024 545c-25 16-23 39-3 49 19 10 41-1 62-18l145-111Z" fill="url(#skinGlow)"/>
+<path d="M1207 450C1158 496 1105 542 1047 579c-23 15-21 36-3 45 18 9 37-1 57-17l135-100Z" fill="url(#skinGlow)"/>
+<path d="M1209 491C1168 529 1123 564 1080 595c-20 15-18 33-2 41 16 8 33-1 50-15l113-82Z" fill="url(#skinGlow)"/>
+<path d="M1258 464c-51 23-104 55-143 85-20 16-17 35 2 43 17 8 35-2 53-17l121-79Z" fill="url(#skinShade)"/>
+<path d="M1175 203c47 8 85 34 107 75l61 143c12 28 1 55-22 64l-87 40c-33 15-68 11-90-7l-42-44c65-37 113-80 141-132l42-79c12-23 11-45-10-60Z" fill="url(#skinShade)"/>
+<path d="M1210 236l70 160" stroke="#fff0e5" stroke-width="12" opacity=".35" stroke-linecap="round"/>
+<path d="M1231 335c-25 35-44 70-57 105M1260 367c-20 35-35 67-47 99" fill="none" stroke="#ad7180" stroke-width="3" opacity=".3" stroke-linecap="round"/>
+</g><g >
+<path d="M1009 544c-23-15-49-14-66 3M1006 578c-28-17-57-14-76 5M1010 612c-24-14-49-11-64 7" fill="none" stroke="#c5a26b" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+<path d="M1045 531c-21-14-44-12-59 4M1044 563c-27-16-53-13-70 6M1048 596c-23-13-46-10-61 6" fill="none" stroke="#d8cbe1" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+<ellipse cx="932" cy="578" rx="89" ry="102" fill="none" stroke="#ecd8b3" stroke-width="2" opacity=".45" transform="rotate(-18 932 578)"/>
+</g><g ><path d="M958 548H218V254" fill="none" stroke="#f2dcc0" stroke-width="1.5" opacity=".66"/><text x="236" y="262" fill="#f2dcc0" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" text-anchor="start" letter-spacing="1.5" opacity="1">GESTO DE TAPPING</text></g><g ><path d="M1190 356H1196V198" fill="none" stroke="#f2dcc0" stroke-width="1.5" opacity=".66"/><text x="1178" y="206" fill="#f2dcc0" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" text-anchor="end" letter-spacing="1.5" opacity="1">TOQUE SUAVE</text></g><g ><path d="M970 886H1210V924" fill="none" stroke="#f2dcc0" stroke-width="1.5" opacity=".66"/><text x="1192" y="932" fill="#f2dcc0" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="500" text-anchor="end" letter-spacing="1.5" opacity="1">COMPOSIÇÃO CORPORAL</text></g>
+<g opacity="0.9"><path d="M1212 932H1460" stroke="#ecd8b3" stroke-width="1" opacity=".5"/><text x="1460" y="916" fill="#ecd8b3" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" text-anchor="end" letter-spacing="2.8" opacity="1">TOQUE · TAPPING · CORPO</text></g>
+<rect width="1536" height="1024" fill="transparent" filter="url(#grain)"/>
+</svg>
